@@ -810,7 +810,7 @@
             <div>
                 <div class="flex items-center gap-3 mb-6">
                     <div class="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
-                        <span class="text-white font-bold">V</span>
+                        <span class="text-white font-bold">M</span>
                     </div>
                     <div>
                         <span class="text-xl font-bold text-white">Mercury</span>
