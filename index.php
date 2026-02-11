@@ -600,7 +600,7 @@
                 <div class="mb-8">
                     <span class="text-4xl font-bold text-primary">₦</span>
                     <span class="text-4xl font-bold text-primary" x-text="isYearly ? '278,400' : '29,000'"></span>
-                    <span class="text-slate-600">/month</span>
+                    <span class="text-slate-600" x-text="isYearly ? '/year' : '/month'"></span>
                 </div>
                 <ul class="space-y-4 mb-8">
                     <li class="flex items-center gap-3">
@@ -640,7 +640,7 @@
                 <div class="mb-8">
                     <span class="text-4xl font-bold text-primary">₦</span>
                     <span class="text-4xl font-bold text-primary" x-text="isYearly ? '566,400' : '59,000'"></span>
-                    <span class="text-slate-600">/month</span>
+                    <span class="text-slate-600" x-text="isYearly ? '/year' : '/month'"></span>
                 </div>
                 <ul class="space-y-4 mb-8">
                     <li class="flex items-center gap-3">
@@ -674,8 +674,8 @@
                 <p class="text-slate-600 mb-6">For multi-location chains</p>
                 <div class="mb-8">
                     <span class="text-4xl font-bold text-primary">₦</span>
-                    <span class="text-4xl font-bold text-primary" x-text="isYearly ? '142,800,400' : '119,000'"></span>
-                    <span class="text-slate-600">/month</span>
+                    <span class="text-4xl font-bold text-primary" x-text="isYearly ? '1,142,400' : '119,000'"></span>
+                    <span class="text-slate-600" x-text="isYearly ? '/year' : '/month'"></span>
                 </div>
                 <ul class="space-y-4 mb-8">
                     <li class="flex items-center gap-3">
